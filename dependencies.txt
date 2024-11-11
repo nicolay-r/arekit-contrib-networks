@@ -1,0 +1,2 @@
+arekit @ git+https://github.com/nicolay-r/AREkit.git@0.25.1-rc
+numpy
