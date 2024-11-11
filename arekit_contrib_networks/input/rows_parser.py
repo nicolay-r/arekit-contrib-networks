@@ -1,5 +1,5 @@
-import arekit.contrib.networks.input.const as const
 from arekit.common.data.rows_fmt import process_indices_list
+from arekit_contrib_networks.input import const
 
 
 def create_nn_column_formatters(no_value_func=lambda: None, args_sep=","):

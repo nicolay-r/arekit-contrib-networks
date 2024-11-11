@@ -1,5 +1,6 @@
 from arekit.common.data.input.providers.label.multiple import MultipleLabelProvider
-from arekit.contrib.utils.processing.pos.base import POSTagger
+
+from arekit_contrib_networks.pos_tagger import POSTagger
 
 
 class NetworkSerializationContext(object):

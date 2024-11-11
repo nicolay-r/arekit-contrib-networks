@@ -1,6 +1,7 @@
 from arekit.common.text.stemmer import Stemmer
 from arekit.contrib.utils.pipelines.items.text.frames import FrameVariantsParser
-from arekit.contrib.utils.processing.languages.ru.mods import RussianLanguageMods
+
+from arekit_contrib_networks.languages.ru.mods import RussianLanguageMods
 
 
 class LemmasBasedFrameVariantsParser(FrameVariantsParser):

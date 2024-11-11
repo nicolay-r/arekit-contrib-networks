@@ -1,5 +1,6 @@
 from arekit.common.text.stemmer import Stemmer
-from arekit.contrib.networks.embedding import Embedding
+
+from arekit_contrib_networks.embeddings.base import Embedding
 
 
 class RusvectoresEmbedding(Embedding):

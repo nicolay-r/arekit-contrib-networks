@@ -1,5 +1,6 @@
 from arekit.common.data.input.providers.text.single import BaseSingleTextProvider
-from arekit.contrib.networks.input.terms_mapping import VectorizedNetworkTermMapping
+
+from arekit_contrib_networks.input.terms_mapping import VectorizedNetworkTermMapping
 
 
 class NetworkSingleTextProvider(BaseSingleTextProvider):

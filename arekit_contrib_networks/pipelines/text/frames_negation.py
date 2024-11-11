@@ -1,8 +1,9 @@
 from arekit.common.frames.text_variant import TextFrameVariant
 from arekit.common.pipeline.context import PipelineContext
 from arekit.common.pipeline.items.base import BasePipelineItem
-from arekit.contrib.utils.processing.languages.mods import BaseLanguageMods
-from arekit.contrib.utils.processing.languages.ru.mods import RussianLanguageMods
+
+from arekit_contrib_networks.languages.mods import BaseLanguageMods
+from arekit_contrib_networks.languages.ru.mods import RussianLanguageMods
 
 
 class FrameVariantsSentimentNegation(BasePipelineItem):

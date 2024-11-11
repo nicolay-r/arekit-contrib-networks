@@ -1,4 +1,4 @@
-from arekit.contrib.utils.processing.languages.mods import BaseLanguageMods
+from arekit_contrib_networks.languages.mods import BaseLanguageMods
 
 
 class RussianLanguageMods(BaseLanguageMods):

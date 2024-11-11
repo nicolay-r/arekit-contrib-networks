@@ -1,6 +1,6 @@
 import logging
 
-from arekit.contrib.networks.embedding import Embedding
+from arekit_contrib_networks.embeddings.base import Embedding
 
 logger = logging.getLogger(__name__)
 

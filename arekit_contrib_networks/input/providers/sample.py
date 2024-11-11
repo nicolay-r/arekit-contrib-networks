@@ -6,10 +6,11 @@ from arekit.common.entities.base import Entity
 from arekit.common.frames.text_variant import TextFrameVariant
 from arekit.common.labels.scaler.sentiment import SentimentLabelScaler
 from arekit.common.docs.parsed.base import ParsedDocument
-from arekit.contrib.networks.input.formatters.pos_mapper import PosTermsMapper
-from arekit.contrib.networks.input import const
-from arekit.contrib.networks.input.providers.term_connotation import extract_uint_frame_variant_connotation
-from arekit.contrib.networks.input.rows_parser import create_nn_val_writer_fmt
+
+from arekit_contrib_networks.input import const
+from arekit_contrib_networks.input.formatters.pos_mapper import PosTermsMapper
+from arekit_contrib_networks.input.providers.term_connotation import extract_uint_frame_variant_connotation
+from arekit_contrib_networks.input.rows_parser import create_nn_val_writer_fmt
 
 
 class NetworkSampleRowProvider(BaseSampleRowProvider):

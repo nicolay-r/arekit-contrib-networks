@@ -1,8 +1,8 @@
 import logging
 import numpy as np
 
-from arekit.contrib.networks.input.embedding.offsets import TermsEmbeddingOffsets
-from arekit.contrib.networks.embedding import Embedding
+from arekit_contrib_networks.embeddings.base import Embedding
+from arekit_contrib_networks.input.embedding.offsets import TermsEmbeddingOffsets
 
 logger = logging.getLogger(__name__)
 

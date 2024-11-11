@@ -1,7 +1,8 @@
 from arekit.common.data.input.terms_mapper import OpinionContainingTextTermsMapper
 from arekit.common.entities.base import Entity
 from arekit.common.frames.text_variant import TextFrameVariant
-from arekit.contrib.networks.input.term_types import TermTypes
+
+from arekit_contrib_networks.input.term_types import TermTypes
 
 
 class VectorizedNetworkTermMapping(OpinionContainingTextTermsMapper):
