@@ -1,10 +1,10 @@
 from os.path import join
 
 from arekit.contrib.utils.io_utils.utils import check_targets_existence
-from arekit.contrib.utils.np_utils.embedding import NpzEmbeddingHelper
-from arekit.contrib.utils.np_utils.vocab import VocabRepositoryUtils
 
 from arekit_contrib_networks.embeddings.io_utils.base import BaseEmbeddingIO
+from arekit_contrib_networks.embeddings.np_utils.embedding import NpzEmbeddingHelper
+from arekit_contrib_networks.embeddings.np_utils.vocab import VocabRepositoryUtils
 
 
 class NpEmbeddingIO(BaseEmbeddingIO):
